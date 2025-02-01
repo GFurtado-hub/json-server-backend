@@ -1,33 +1,75 @@
 {
-  "projects": [
-    {
-      "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
-    },
-    {
-      "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
-    },
-    {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
-    },
-    {
-      "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
-    }
-  ]
-}
+  "users": [
+      {
+          "id": 1,
+          "name": "Gonçalo Furtado",
+          "age": 32,
+          "weight": 89,
+          "height": 175
+        },
+        {
+          "id": 2,
+          "name": "Francesco Torchia",
+          "age": 28,
+          "weight": 70,
+          "height": 175
+        }
+      ],
+      "workouts": [
+        {
+          "id": 1,
+          "userId": 1,
+          "name": "Strength",
+          "exercises": "military press",
+          "sets": 5,
+          "reps": 5,
+          "weight": 75
+        },
+        {
+          "id": 2,
+          "userId": 1,
+          "name": "cardio",
+          "exercises": "burpees",
+          "sets": 10,
+          "reps": 10,
+          "weight": 0
+        },
+        {
+          "id": 3,
+          "userId": 2,
+          "name": "stretching",
+          "exercises": "wall stretch",
+          "sets": 2,
+          "reps": 30 ,
+          "weight": 0
+        },
+        {
+          "id": 4,
+          "userId": 2,
+          "name": "balance",
+          "exercises": "handstand",
+          "sets": 5,
+          "reps": 10,
+          "weight": 0
+        },
+      {
+          "id": 5,
+          "userId": 1,
+          "name": "hyperthrophy",
+          "exercises": "back squat",
+          "sets": 3,
+          "reps": 10,
+          "weight": 100
+          },
+          {
+           "id": 6,
+           "userId": 1,
+          "name": "calisthenics",
+          "exercises": "pull up",
+          "sets": 4,
+          "reps": 12,
+          "weight": 0
+          }
+          
+      ]
+  }
