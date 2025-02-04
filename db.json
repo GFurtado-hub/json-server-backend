@@ -65,6 +65,12 @@
           "weight": 80
         },
         {
+          "name": "dumbell rows/ incline bench",
+          "sets": 3,
+          "reps": 10,
+          "weight": 22.5
+        },
+        {
           "name": "barbell bicep curl",
           "sets": 4,
           "reps": 10,
@@ -124,6 +130,74 @@
           "name": "mountain climbers",
           "sets": 3,
           "reps": 60,
+          "weight": 0
+        },
+        {
+          "name": "thrusters",
+          "sets": 4,
+          "reps": 20,
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "name": "streetlifting",
+      "exercises": [
+        {
+          "name": "muscle ups",
+          "sets": 3,
+          "reps": 2,
+          "weight": 10
+        },
+        {
+          "name": "weighted chin-ups",
+          "sets": 2,
+          "reps": 4,
+          "weight": 40
+        },
+        {
+          "name": "weighted dips",
+          "sets": 2,
+          "reps": 6,
+          "weight": 80
+        },
+        {
+          "name": "back squat",
+          "sets": 2,
+          "reps": 8,
+          "weight": 120
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "name": "calisthenics",
+      "exercises": [
+        {
+          "name": "pull-ups",
+          "sets": 4,
+          "reps": 12,
+          "weight": 0
+        },
+        {
+          "name": "dips",
+          "sets": 4,
+          "reps": 15,
+          "weight": 0
+        },
+        {
+          "name": "muscle ups",
+          "sets": 5,
+          "reps": 5,
+          "weight": 0
+        },
+        {
+          "name": "walking lunges",
+          "sets": 4,
+          "reps": 30,
           "weight": 0
         }
       ]
