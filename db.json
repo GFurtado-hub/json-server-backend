@@ -112,31 +112,31 @@
     {
       "id": 4,
       "userId": 2,
-      "name": "cardio",
+      "name": "One Punch Man",
       "exercises": [
         {
-          "name": "burpees",
-          "sets": 3,
-          "reps": 20,
+          "name": "push ups",
+          "sets": 1,
+          "reps": 100,
           "weight": 0
         },
         {
-          "name": "jumping jacks",
-          "sets": 3,
-          "reps": 50,
+          "name": "Sit ups",
+          "sets": 1,
+          "reps": 100,
           "weight": 0
         },
         {
-          "name": "mountain climbers",
-          "sets": 3,
-          "reps": 60,
+          "name": "Squats",
+          "sets": 1,
+          "reps": 100,
           "weight": 0
         },
         {
-          "name": "thrusters",
-          "sets": 4,
-          "reps": 20,
-          "weight": 20
+          "name": "run",
+          "sets": 1,
+          "reps": 10000,
+          "weight": 0
         }
       ]
     },
