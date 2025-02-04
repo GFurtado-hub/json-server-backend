@@ -1,75 +1,132 @@
 {
   "users": [
-      {
-          "id": 1,
-          "name": "Gonçalo Furtado",
-          "age": 32,
-          "weight": 89,
-          "height": 175
-        },
+    {
+      "id": 1,
+      "name": "Gonçalo Furtado",
+      "age": 32,
+      "weight": 89,
+      "height": 175
+    },
+    {
+      "id": 2,
+      "name": "Francesco Torchia",
+      "age": 28,
+      "weight": 70,
+      "height": 175
+    }
+  ],
+  "workouts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "push day",
+      "exercises": [
         {
-          "id": 2,
-          "name": "Francesco Torchia",
-          "age": 28,
-          "weight": 70,
-          "height": 175
-        }
-      ],
-      "workouts": [
-        {
-          "id": 1,
-          "userId": 1,
-          "name": "Strength",
-          "exercises": "military press",
+          "name": "military press",
           "sets": 5,
           "reps": 5,
           "weight": 75
         },
         {
-          "id": 2,
-          "userId": 1,
-          "name": "cardio",
-          "exercises": "burpees",
-          "sets": 10,
-          "reps": 10,
-          "weight": 0
-        },
-        {
-          "id": 3,
-          "userId": 2,
-          "name": "stretching",
-          "exercises": "wall stretch",
-          "sets": 2,
-          "reps": 30 ,
-          "weight": 0
-        },
-        {
-          "id": 4,
-          "userId": 2,
-          "name": "balance",
-          "exercises": "handstand",
-          "sets": 5,
-          "reps": 10,
-          "weight": 0
-        },
-      {
-          "id": 5,
-          "userId": 1,
-          "name": "hyperthrophy",
-          "exercises": "back squat",
+          "name": "weighted dips",
           "sets": 3,
-          "reps": 10,
-          "weight": 100
-          },
-          {
-           "id": 6,
-           "userId": 1,
-          "name": "calisthenics",
-          "exercises": "pull up",
+          "reps": 8,
+          "weight": 80
+        },
+        {
+          "name": "dumbell skullcrushers",
+          "sets": 3,
+          "reps": 20,
+          "weight": 15
+        },
+        {
+          "name": "dumbell bench press",
           "sets": 4,
           "reps": 12,
-          "weight": 0
-          }
-          
+          "weight": 30
+        }
       ]
-  }
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "name": "pull day",
+      "exercises": [
+        {
+          "name": "Weighted pull ups",
+          "sets": 5,
+          "reps": 5,
+          "weight": 45
+        },
+        {
+          "name": "barbell rows",
+          "sets": 3,
+          "reps": 8,
+          "weight": 80
+        },
+        {
+          "name": "barbell bicep curl",
+          "sets": 4,
+          "reps": 10,
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "name": "legs day",
+      "exercises": [
+        {
+          "name": "Back squat",
+          "sets": 5,
+          "reps": 5,
+          "weight": 130
+        },
+        {
+          "name": "Romanian Deadlift",
+          "sets": 3,
+          "reps": 8,
+          "weight": 110
+        },
+        {
+          "name": "walking lunges",
+          "sets": 4,
+          "reps": 20,
+          "weight": 60
+        },
+        {
+          "name": "hip thrust",
+          "sets": 4,
+          "reps": 10,
+          "weight": 100
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "name": "cardio",
+      "exercises": [
+        {
+          "name": "burpees",
+          "sets": 3,
+          "reps": 20,
+          "weight": 0
+        },
+        {
+          "name": "jumping jacks",
+          "sets": 3,
+          "reps": 50,
+          "weight": 0
+        },
+        {
+          "name": "mountain climbers",
+          "sets": 3,
+          "reps": 60,
+          "weight": 0
+        }
+      ]
+    }
+  ]
+}
