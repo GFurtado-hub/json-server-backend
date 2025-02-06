@@ -103,20 +103,22 @@
           "name": "Romanian Deadlift",
           "sets": 3,
           "reps": 8,
-          "weight": 110
+          "weight": 110,
+          "image": "https://workoutlabs.com/train/svg.php?id=84351"
         },
         {
           "name": "walking lunges",
           "sets": 4,
           "reps": 20,
-          "weight": 60
+          "weight": 60,
+          "image": "https://workoutlabs.com/train/svg.php?id=84134"
         },
         {
           "name": "hip thrust",
           "sets": 4,
           "reps": 10,
-          "weight": 100
-          "image": 
+          "weight": 100,
+          "image": "https://workoutlabs.com/train/svg.php?id=83982"
         }
       ]
     },
@@ -129,25 +131,29 @@
           "name": "push ups",
           "sets": 1,
           "reps": 100,
-          "weight": 0
+          "weight": 0,
+          "image": "https://workoutlabs.com/train/svg.php?id=86286"
         },
         {
           "name": "Sit ups",
           "sets": 1,
           "reps": 100,
-          "weight": 0
+          "weight": 0,
+          "image": "https://workoutlabs.com/train/svg.php?id=84427"
         },
         {
           "name": "Squats",
           "sets": 1,
           "reps": 100,
-          "weight": 0
+          "weight": 0,
+          "image": "https://workoutlabs.com/train/svg.php?id=86598"
         },
         {
           "name": "run",
           "sets": 1,
           "reps": 10000,
-          "weight": 0
+          "weight": 0,
+          "image": "https://workoutlabs.com/train/svg.php?id=84066"
         }
       ]
     },
@@ -160,25 +166,29 @@
           "name": "muscle ups",
           "sets": 3,
           "reps": 2,
-          "weight": 10
+          "weight": 10,
+          "image": "https://workoutlabs.com/train/svg.php?id=84269"
         },
         {
           "name": "weighted chin-ups",
           "sets": 2,
           "reps": 4,
-          "weight": 40
+          "weight": 40,
+          "image": "https://workoutlabs.com/train/svg.php?id=86664"
         },
         {
           "name": "weighted dips",
           "sets": 2,
           "reps": 6,
-          "weight": 80
+          "weight": 80,
+          "image": "https://workoutlabs.com/train/svg.php?id=84543"
         },
         {
           "name": "back squat",
           "sets": 2,
           "reps": 8,
-          "weight": 120
+          "weight": 120,
+          "image": "https://workoutlabs.com/train/svg.php?id=83969"
         }
       ]
     },
@@ -191,25 +201,29 @@
           "name": "pull-ups",
           "sets": 4,
           "reps": 12,
-          "weight": 0
+          "weight": 0,
+          "image": "https://workoutlabs.com/train/svg.php?id=84313"
         },
         {
           "name": "dips",
           "sets": 4,
           "reps": 15,
-          "weight": 0
+          "weight": 0,
+          "image": "https://workoutlabs.com/train/svg.php?id=84100"
         },
         {
           "name": "muscle ups",
           "sets": 5,
           "reps": 5,
-          "weight": 0
+          "weight": 0,
+          "image": "https://workoutlabs.com/train/svg.php?id=84269"
         },
         {
           "name": "walking lunges",
           "sets": 4,
           "reps": 30,
-          "weight": 0
+          "weight": 0,
+          "image": "https://workoutlabs.com/train/svg.php?id=84020"
         }
       ]
     }
