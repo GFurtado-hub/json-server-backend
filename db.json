@@ -12,7 +12,7 @@
       "name": "Francesco Torchia",
       "age": 28,
       "weight": 70,
-      "height": 175
+      "height": 178
     }
   ],
   "workouts": [
@@ -25,25 +25,30 @@
           "name": "military press",
           "sets": 5,
           "reps": 5,
-          "weight": 75
+          "weight": 75,
+          "image": "https://workoutlabs.com/train/svg.php?id=84453"
+
         },
         {
           "name": "weighted dips",
           "sets": 3,
           "reps": 8,
-          "weight": 80
+          "weight": 80,
+          "image": "https://workoutlabs.com/train/svg.php?id=84543"
         },
         {
           "name": "dumbell skullcrushers",
           "sets": 3,
           "reps": 20,
-          "weight": 15
+          "weight": 15,
+          "image": "https://workoutlabs.com/train/svg.php?id=84096"
         },
         {
-          "name": "dumbell bench press",
+          "name": "dumbell incline chest press",
           "sets": 4,
           "reps": 12,
-          "weight": 30
+          "weight": 30,
+          "image": "https://workoutlabs.com/train/svg.php?id=84199"
         }
       ]
     },
@@ -56,25 +61,29 @@
           "name": "Weighted pull ups",
           "sets": 5,
           "reps": 5,
-          "weight": 45
+          "weight": 45,
+          "image": "https://workoutlabs.com/train/svg.php?id=86664"
         },
         {
           "name": "barbell rows",
           "sets": 3,
           "reps": 8,
-          "weight": 80
+          "weight": 80,
+          "image": "https://workoutlabs.com/train/svg.php?id=84007"
         },
         {
           "name": "dumbell rows/ incline bench",
           "sets": 3,
           "reps": 10,
-          "weight": 22.5
+          "weight": 22.5,
+          "image": "https://workoutlabs.com/train/svg.php?id=84120"
         },
         {
           "name": "barbell bicep curl",
           "sets": 4,
           "reps": 10,
-          "weight": 30
+          "weight": 30,
+          "image": "https://workoutlabs.com/train/svg.php?id=83975"
         }
       ]
     },
@@ -87,7 +96,8 @@
           "name": "Back squat",
           "sets": 5,
           "reps": 5,
-          "weight": 130
+          "weight": 130,
+          "image": "https://workoutlabs.com/train/svg.php?id=83969"
         },
         {
           "name": "Romanian Deadlift",
@@ -106,6 +116,7 @@
           "sets": 4,
           "reps": 10,
           "weight": 100
+          "image": 
         }
       ]
     },
