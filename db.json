@@ -1,229 +1,327 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "name": "Gonçalo Furtado",
-      "age": 32,
-      "weight": 89,
-      "height": 175
-    },
-    {
-      "id": 2,
-      "name": "Francesco Torchia",
-      "age": 28,
-      "weight": 70,
-      "height": 178
-    }
-  ],
   "workouts": [
     {
       "id": 1,
       "userId": 1,
+      "type": "chest + triceps",
       "name": "push day",
       "exercises": [
         {
           "name": "military press",
           "sets": 5,
           "reps": 5,
-          "weight": 75,
-          "image": "./images/military_press.png"
+          "weight": 75
 
         },
         {
           "name": "weighted dips",
           "sets": 3,
           "reps": 8,
-          "weight": 80,
-          "image": "./images/weighteddips.png"
+          "weight": 80
         },
         {
           "name": "dumbell skullcrushers",
           "sets": 3,
           "reps": 20,
-          "weight": 15,
-          "image": "./images/dumbellskullcrushers.png"
+          "weight": 15
         },
         {
           "name": "dumbell incline chest press",
           "sets": 4,
           "reps": 12,
-          "weight": 30,
-          "image": "./images/dumbellinclinechestpress.png"
+          "weight": 30
         }
       ]
     },
     {
       "id": 2,
       "userId": 1,
-      "name": "pull day",
+      "type": "chest + triceps",
+      "name": "push day2",
       "exercises": [
         {
-          "name": "Weighted pull ups",
+          "name": "bench press",
           "sets": 5,
           "reps": 5,
-          "weight": 45,
-          "image": "./images/weightedpullups.png"
+          "weight": 85
+
         },
         {
-          "name": "barbell rows",
+          "name": "dumbell incline chest press",
           "sets": 3,
-          "reps": 8,
-          "weight": 80,
-          "image": "./images/barbellrows.png"
+          "reps": 12,
+          "weight": 30
         },
         {
-          "name": "dumbell rows/ incline bench",
+          "name": "tricep pushdown",
           "sets": 3,
-          "reps": 10,
-          "weight": 22.5,
-          "image": "./images/dumbellrowsinclinebench.png"
+          "reps": 15,
+          "weight": 40
         },
         {
-          "name": "barbell bicep curl",
+          "name": "diamond pushups",
           "sets": 4,
-          "reps": 10,
-          "weight": 30,
-          "image": "./images/barbellbicepcurl.png"
+          "reps": 20,
+          "weight": 0
         }
       ]
     },
     {
       "id": 3,
       "userId": 2,
+      "type": "back + biceps",
+      "name": "pull day",
+      "exercises": [
+        {
+          "name": "Weighted pull ups",
+          "sets": 5,
+          "reps": 5,
+          "weight": 45
+        },
+        {
+          "name": "barbell rows",
+          "sets": 3,
+          "reps": 8,
+          "weight": 80
+        },
+        {
+          "name": "dumbell rows/ incline bench",
+          "sets": 3,
+          "reps": 10,
+          "weight": 22.5
+        },
+        {
+          "name": "barbell bicep curl",
+          "sets": 4,
+          "reps": 10,
+          "weight": 30
+        }
+        
+      ]
+      
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "type": "back + biceps",
+      "name": "pull day2",
+      "exercises": [
+        {
+          "name": "chin-ups",
+          "sets": 4,
+          "reps": 12,
+          "weight": 0
+        },
+        {
+          "name": "Single arm dumbell rows",
+          "sets": 3,
+          "reps": 8,
+          "weight": 30
+        },
+        {
+          "name": "Lat pulldown",
+          "sets": 3,
+          "reps": 10,
+          "weight": 60
+        },
+        {
+          "name": "Dumbell hammer curl",
+          "sets": 4,
+          "reps": 10,
+          "weight": 20
+        }
+        
+      ]
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "type": "legs",
       "name": "legs day",
       "exercises": [
         {
           "name": "Back squat",
           "sets": 5,
           "reps": 5,
-          "weight": 130,
-          "image": "./images/backsquat.png"
+          "weight": 130
         },
         {
           "name": "Romanian Deadlift",
           "sets": 3,
           "reps": 8,
-          "weight": 110,
-          "image": "./images/romaniandeadlift.png"
+          "weight": 110
         },
         {
           "name": "walking lunges",
           "sets": 4,
           "reps": 20,
-          "weight": 60,
-          "image": "./images/weightedwalkinglunges.png"
+          "weight": 60
         },
         {
           "name": "hip thrust",
           "sets": 4,
           "reps": 10,
-          "weight": 100,
-          "image": "./images/barbellhipthrust.png"
+          "weight": 100
         }
       ]
     },
     {
-      "id": 4,
-      "userId": 2,
+      "id": 6,
+      "userId": 3,
+      "type": "legs",
+      "name": "legs day2",
+      "exercises": [
+        {
+          "name": "Leg press",
+          "sets": 4,
+          "reps": 12,
+          "weight": 100
+        },
+        {
+          "name": "Bulgarian Split Squat",
+          "sets": 3,
+          "reps": 10,
+          "weight": 20
+        },
+        {
+          "name": "Leg curl",
+          "sets": 4,
+          "reps": 10,
+          "weight": 50
+        },
+        {
+          "name": "Leg Extension",
+          "sets": 4,
+          "reps": 10,
+          "weight": 60
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "userId": 4,
+      "type": "cardio",
       "name": "One Punch Man",
       "exercises": [
         {
           "name": "push ups",
           "sets": 1,
           "reps": 100,
-          "weight": 0,
-          "image": "./images/pushups.png"
+          "weight": 0
         },
         {
           "name": "Sit ups",
           "sets": 1,
           "reps": 100,
-          "weight": 0,
-          "image": "./images/situps.png"
+          "weight": 0
         },
         {
           "name": "Squats",
           "sets": 1,
           "reps": 100,
-          "weight": 0,
-          "image": "./images/squats.png"
+          "weight": 0
         },
         {
           "name": "run",
           "sets": 1,
           "reps": 10000,
-          "weight": 0,
-          "image": "./images/run.png"
+          "weight": 0
         }
       ]
     },
     {
-      "id": 5,
-      "userId": 1,
+      "id": 8,
+      "userId": 4,
+      "type": "cardio",
+      "name": "Fittest Man Alive",
+      "exercises": [
+        {
+          "name": "jumping lunges",
+          "sets": 3,
+          "reps": 20,
+          "weight": 0
+        },
+        {
+          "name": "Jumping Jacks",
+          "sets": 3,
+          "reps": 100,
+          "weight": 0
+        },
+        {
+          "name": "Burpees",
+          "sets": 4,
+          "reps": 20,
+          "weight": 0
+        },
+        {
+          "name": "Mountain Climbers",
+          "sets": 5,
+          "reps": 50,
+          "weight": 0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "userId": 5,
+      "type": "full-body",
       "name": "streetlifting",
       "exercises": [
         {
           "name": "muscle ups",
           "sets": 3,
           "reps": 2,
-          "weight": 10,
-          "image": "./images/muscleups.png"
+          "weight": 10
         },
         {
           "name": "weighted chin-ups",
           "sets": 2,
           "reps": 4,
-          "weight": 40,
-          "image": "./images/weightedpullups.png"
+          "weight": 40
         },
         {
           "name": "weighted dips",
           "sets": 2,
           "reps": 6,
-          "weight": 80,
-          "image": "./images/weighteddips.png"
+          "weight": 80
         },
         {
           "name": "back squat",
           "sets": 2,
           "reps": 8,
-          "weight": 120,
-          "image": "./images/backsquat.png"
+          "weight": 120
         }
       ]
     },
     {
-      "id": 6,
-      "userId": 1,
+      "id": 10,
+      "userId": 5,
+      "type": "full-body",
       "name": "calisthenics",
       "exercises": [
         {
           "name": "pull-ups",
           "sets": 4,
           "reps": 12,
-          "weight": 0,
-          "image": "./images/pullups.png"
+          "weight": 0
         },
         {
           "name": "dips",
           "sets": 4,
           "reps": 15,
-          "weight": 0,
-          "image": "./images/dips.png"
+          "weight": 0
         },
         {
           "name": "muscle ups",
           "sets": 5,
           "reps": 5,
-          "weight": 0,
-          "image": "./images/muscleups.png"
+          "weight": 0
         },
         {
           "name": "walking lunges",
           "sets": 4,
           "reps": 30,
-          "weight": 0,
-          "image": "./images/walkinglunges.png"
+          "weight": 0
         }
       ]
     }
